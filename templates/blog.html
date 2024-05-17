@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog Post</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        ol,
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .jumbotron {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .card-header {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .card-body {
+            background-color: #e9ecef;
+        }
+
+        .card-body ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .card-body li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-4 mt-4">
+        <div class="jumbotron">
+            <h2>Using Flask and Machine Learning to Develop a Symptom-Based Disease Diagnosis Web Application</h2>
+        </div>
+
+        <p>It is more important than ever to have access to quick and accurate healthcare in the information and
+            technology age. In light of the growing significance of remote healthcare solutions, we set out to create a
+            web application for symptom-based disease detection. With the use of a Support Vector Classifier model and
+            Flask for the backend, we developed an intuitive platform that assists users in identifying possible
+            illnesses based on the symptoms they have reported.
+        </p>
+
+        <h3>The Problem</h3>
+        <p>The initiative started with identifying a common problem: people frequently have symptoms and seek prompt
+            resolutions for their medical issues. Differentiating between different diseases can be difficult,
+            particularly when symptoms are similar. Our intention was to offer a user-friendly way for people to enter
+            their symptoms and get possible diagnosis.
+        </p>
+
+        <h3>The Solution</h3>
+        <p>We created a web application that enables users to list the symptoms they are having. Based on the given
+            symptoms, the app then employs a pre-trained Support Vector Classifier model to determine which disease is
+            most likely. This is how it operates:
+        </p>
+
+        <div class="card">
+            <div class="card-header">
+                How It Works
+            </div>
+            <div class="card-body">
+                <ol>
+                    <li><b>Symptom Input:</b> Users enter their symptoms through a user-friendly interface. The web app
+                        supports a wide range of symptoms, making it versatile for different scenarios.</li>
+                    <li><b>Machine Learning Model:</b> We trained a Decision Tree Classifier using a dataset containing
+                        symptoms and corresponding diseases. The model is capable of predicting diseases based on input
+                        symptoms.</li>
+                    <li><b>Prediction:</b> The app uses the model to predict the most likely disease, providing users
+                        with instant information about potential health concerns.</li>
+                    <li><b>Additional Information:</b> To enhance user experience, the app also provides additional
+                        information about the predicted disease. This includes a description of the disease, recommended
+                        precautions, medications, dietary advice, and workout tips.</li>
+                </ol>
+            </div>
+        </div>
+
+        <h3>Key Features</h3>
+        <div class="card">
+            <div class="card-header">
+                Key Features
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li><b>User-Friendly Interface:</b> The web app boasts an intuitive and easy-to-navigate interface,
+                        ensuring that users can input their symptoms without any hassle.</li>
+                    <li><b>Accurate Predictions:</b> Leveraging machine learning, our model provides accurate disease
+                        predictions based on the symptoms provided by the user.</li>
+                    <li><b>Comprehensive Information:</b> In addition to predictions, the app offers comprehensive
+                        information about the predicted disease, including descriptions, precautions, medications, diet
+                        recommendations, and workout tips.</li>
+                    <li><b>Educational Content:</b> To empower users with knowledge, the app includes informative blog
+                        posts about various health topics.</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>Conclusion</h3>
+        <p>Our Symptom-Based Disease Diagnosis Web App brings the power of machine learning and healthcare information
+            to the fingertips of users. It serves as a valuable resource for individuals looking to gain insights into
+            their health conditions quickly and conveniently. By combining technology and healthcare, we aim to make
+            healthcare more accessible and user-centric.</p>
+
+        <p>In an era where remote healthcare solutions are gaining prominence, this project represents a significant
+            step forward in providing accessible and reliable healthcare information to the masses. We hope that this
+            project will contribute to better health awareness and ultimately improve the well-being of individuals
+            worldwide.</p>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
